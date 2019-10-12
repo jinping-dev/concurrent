@@ -39,6 +39,7 @@ public class UseAtomicStampedReference {
             }
         });
         rightStampThread.start();
+        //为什么使用join？保证顺序执行
         rightStampThread.join();
         errorStampThread.start();
         errorStampThread.join();

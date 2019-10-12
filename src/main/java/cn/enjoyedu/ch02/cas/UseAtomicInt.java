@@ -9,9 +9,13 @@ public class UseAtomicInt {
     static AtomicInteger ai = new AtomicInteger(10);
 
     public static void main(String[] args) {
-        ai.getAndIncrement();
-        ai.incrementAndGet();
+        //返回的是我自增以前的值
+        int i =  ai.getAndIncrement(); // i++
+        //返回自增以后的值
+        int b = ai.incrementAndGet();// ++i
+        System.out.println(i +"------"+ b);
         //ai.compareAndSet();
-        ai.addAndGet(24);
+        int fianl = ai.addAndGet(24);
+        System.out.println("加了24之后的值为："+fianl);
     }
 }

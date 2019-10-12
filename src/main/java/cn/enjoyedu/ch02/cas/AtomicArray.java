@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
 
 
 /**
- *类说明：
+ *类说明： 演示原子操作数组
  */
 public class AtomicArray {
     static int[] value = new int[] { 1, 2 };

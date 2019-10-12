@@ -10,13 +10,26 @@ public class NormalDeadLock {
     //先拿第一个锁，再拿第二个锁
     private static void fisrtToSecond() throws InterruptedException {
         String threadName = Thread.currentThread().getName();
-        //TODO
+        synchronized (valueFirst){
+            System.out.println(threadName + " 1st");
+            Thread.sleep(100);
+            synchronized (valueSecond){
+                System.out.println(threadName + " 2nd");
+            }
+        }
     }
 
     //先拿第二个锁，再拿第一个锁
     private static void SecondToFisrt() throws InterruptedException {
         String threadName = Thread.currentThread().getName();
         //TODO
+        synchronized (valueFirst){
+            System.out.println(threadName + " 11111st");
+            Thread.sleep(100);
+            synchronized (valueSecond){
+                System.out.println(threadName + "22222 1st");
+            }
+        }
     }
 
     private static class TestThread extends Thread{
@@ -30,6 +43,7 @@ public class NormalDeadLock {
         public void run(){
             Thread.currentThread().setName(name);
             try {
+                //先拿第一个锁再拿第二个锁
                 SecondToFisrt();
             } catch (InterruptedException e) {
                 e.printStackTrace();

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68e0a1ab-f20d-49dd-9fad-164d6fd457c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch01/wn/Gun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/AtomicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/AtomicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/UseAtomicInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/UseAtomicInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/UseAtomicStampedReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/UseAtomicStampedReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/safepublish/SoftPublicUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/safepublish/SoftPublicUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/enjoyedu/ch02/cas/UseAtomicInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/enjoyedu/ch02/cas/UseAtomicInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/enjoyedu/ch02/cas/UseAtomicStampedReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/enjoyedu/ch02/cas/UseAtomicStampedReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/NormalDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/NormalDeadLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,22 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="47" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1450" />
+          <entry key="java" value="1542" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1450" />
+          <entry key="JAVA" value="1542" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -116,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/safepublish/SoftPublicUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="380">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -133,20 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/UserVo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/NormalDeadLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-328">
+              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/explicitlock/rw/UseRwLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/UserVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -177,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/cas/UseAtomicStampedReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch02/explicitlock/rw/BusiApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/safepublish/SoftPublicUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/NormalDeadLock.java" />
       </list>
     </option>
   </component>
@@ -336,7 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570871213473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570874147199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BusiApp">
+  <component name="RunManager" selected="Application.NormalDeadLock">
     <configuration name="AtomicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.ch02.cas.AtomicArray" />
       <module name="concurrent" />
@@ -384,12 +379,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseAtomicInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.ch02.cas.UseAtomicInt" />
+    <configuration name="NormalDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.ch03.NormalDeadLock" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.enjoyedu.ch02.cas.*" />
+          <option name="PATTERN" value="cn.enjoyedu.ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseAtomicInt" />
       <item itemvalue="Application.AtomicArray" />
       <item itemvalue="Application.UseAtomicReference" />
       <item itemvalue="Application.UseAtomicStampedReference" />
       <item itemvalue="Application.BusiApp" />
+      <item itemvalue="Application.NormalDeadLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NormalDeadLock" />
         <item itemvalue="Application.BusiApp" />
         <item itemvalue="Application.UseAtomicStampedReference" />
         <item itemvalue="Application.UseAtomicReference" />
         <item itemvalue="Application.AtomicArray" />
-        <item itemvalue="Application.UseAtomicInt" />
       </list>
     </recent_temporary>
   </component>
@@ -452,18 +447,25 @@
       <updated>1570686285021</updated>
       <workItem from="1570686288809" duration="11077000" />
       <workItem from="1570785307779" duration="2337000" />
-      <workItem from="1570864096521" duration="4241000" />
+      <workItem from="1570864096521" duration="5978000" />
     </task>
+    <task id="LOCAL-00001" summary="加入了排他锁">
+      <created>1570871290661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570871290661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17655000" />
+    <option name="totallyTimeSpent" value="19392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,12 +474,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33261803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5751073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -498,6 +500,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入了排他锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入了排他锁" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://E:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
@@ -780,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/safeclass/safepublish/SoftPublicUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="380">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -790,6 +796,13 @@
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#584#585#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoyedu/ch03/NormalDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@ package cn.enjoyedu.ch03.tranfer.service;
 import cn.enjoyedu.ch03.tranfer.UserAccount;
 
 /**
+ * 规定：先锁转出，再锁转入
  *类说明：不安全的转账动作的实现
  */
 public class TrasnferAccount implements ITransfer {

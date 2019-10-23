@@ -6,6 +6,7 @@ import cn.enjoyedu.ch03.tranfer.UserAccount;
  *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
  *
  *类说明：不会产生死锁的安全转账
+ * 谁的hash在前，就先锁谁
  */
 public class SafeOperate implements ITransfer {
 

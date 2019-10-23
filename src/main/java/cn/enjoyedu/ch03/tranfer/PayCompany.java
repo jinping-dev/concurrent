@@ -2,6 +2,7 @@ package cn.enjoyedu.ch03.tranfer;
 
 
 import cn.enjoyedu.ch03.tranfer.service.ITransfer;
+import cn.enjoyedu.ch03.tranfer.service.SafeOperate;
 import cn.enjoyedu.ch03.tranfer.service.SafeOperateToo;
 
 /**
@@ -45,7 +46,7 @@ public class PayCompany {
         PayCompany payCompany = new PayCompany();
         UserAccount zhangsan = new UserAccount("zhangsan",20000);
         UserAccount lisi = new UserAccount("lisi",20000);
-        ITransfer transfer = new SafeOperateToo();
+        ITransfer transfer = new SafeOperate();
         TransferThread zhangsanToLisi = new TransferThread("zhangsanToLisi"
                 ,zhangsan,lisi,2000,transfer);
         TransferThread lisiToZhangsan = new TransferThread("lisiToZhangsan"

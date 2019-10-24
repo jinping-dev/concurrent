@@ -2,6 +2,7 @@ package cn.enjoyedu.ch03.dcl;
 
 /**
  * 懒汉式-双重检查
+ * 线程不安全的实现
  */
 public class SingleDcl {
     private static SingleDcl singleDcl;
@@ -18,6 +19,7 @@ public class SingleDcl {
                     //内存中分配空间  1
                     //空间初始化 2
                     //把这个空间的地址给我们的引用  3
+                    //指令的重排序
                     singleDcl = new SingleDcl();
                 }
             }

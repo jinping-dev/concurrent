@@ -2,6 +2,7 @@ package cn.enjoyedu.ch04.forkjoin.sort;
 
 import cn.enjoyedu.ch04.forkjoin.sum.MakeArray;
 
+import java.util.Arrays;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
@@ -11,6 +12,7 @@ import java.util.concurrent.RecursiveTask;
 public class FkSort {
     private static class SumTask extends RecursiveTask<int[]>{
 
+        //阈值，最小的任务范围
         private final static int THRESHOLD = 2;
         private int[] src;
 
@@ -20,8 +22,18 @@ public class FkSort {
 
         @Override
         protected int[] compute() {
-            //TODO
-            return null;
+            if (src.length <= THRESHOLD){
+                return InsertionSort.sort(src);
+            }else{
+                //fromIndex....mid....toIndex
+                int mid = src.length / 2;
+                SumTask leftTask = new SumTask(Arrays.copyOfRange(src,0,mid));
+                SumTask rightTask = new SumTask(Arrays.copyOfRange(src,mid,src.length));
+                invokeAll(leftTask,rightTask);
+                int[] leftResult = leftTask.join();
+                int[] rightResult = rightTask.join();
+                return MergeSort.merge(leftResult,rightResult);
+            }
         }
     }
 
